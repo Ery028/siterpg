@@ -25,3 +25,8 @@ git push origin main
 git pull origin main
 ```
 
+## Para clonar em uma pasta vazia
+``` bash
+git clone https://github.com/Ery028/siterpg.git
+```
+
