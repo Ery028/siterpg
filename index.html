@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+
+<html>
+    <head>
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https: //fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap " rel =" stylesheet ">
+        <link href="style.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <img src="img/taberna.png" height="100px" width="100px">
+                </div><!--logo-->
+                <div class="menu"><!--menu desktop-->
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="sobre.html">
+                        Sobre
+                    </a>
+                    <a href="contatos.html">
+                        Contatos
+                    </a>
+                    <a class="btn-menu" href="login.html">
+                        Vamos lá!
+                    </a>
+
+                </div><!--menu-->
+
+            </div><!--center-->
+            <div class="menu-mobile">
+                <i class="fas fa-bars menu-mobile-icon"></i>
+                <div class="menu-itens">
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                </div>
+            </div>
+
+        </header>
+
+        <section class="main">
+            <div class="center">
+                <div class="main-cta">
+                    <h2>Taberna Obscura</h2>
+                    <p>Junte-se a nós</p>
+                    <button> <a href="login.html" style="text-decoration:none"> Vamos lá</button></a>
+              
+                </div>
+
+                <div class="diferenciais">
+                    <a href="dnd.html" style="text-decoration:none"> 
+                        <div class="diferencial-sigle1">
+                        <h2>ㅤㅤ</h2>
+                        <p>ㅤㅤ</p>
+                    </div>
+                 </a>
+                 <a href="coc.html" style="text-decoration:none">
+                    <div class="diferencial-sigle2">
+                        <h2>ㅤㅤ</h2>
+                        <p>ㅤㅤ</p>
+
+                    </div>
+                 </a>
+                 <a href="tormenta.html" style="text-decoration:none">
+                    <div class="diferencial-sigle3">
+                        <h2>ㅤㅤ</h2>
+                        <p>ㅤㅤ</p>
+                    
+                    </div>
+                </a>
+                <a href="omniverso.html" style="text-decoration:none"> 
+                    <div class="diferencial-sigle4">
+                     <h2>ㅤㅤㅤ</h2>
+                     <p>ㅤㅤㅤ</p>
+ 
+                    </div>
+                </a>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <section class="sobre">
+            <div class="center">
+                <div class="chamada-sobre">
+                    <h2>Sobre nós</h2>
+                    <p>Nós somos a taberna obscura</p>
+
+                </div>
+                <div class="conteudo-sobre">
+                    <p>Erick Andrews, Mateus Vitor, Yan Ribeiro, Mateus Henrique e Júllyo Simplicio estudantes da IFPB, unidos... Pelo destino? Para um trabalho à princípio simples, porém que poderia vir a lhes proporcionar um futuro brilhante.</p>
+                    <p>Alunos... Mais que isso, amigos que se reuniram para a criação de um site, cujo intuito é reunir inúmeros jogadores de um jogo de imaginação e interpretação conhecido como DnD.</p>
+                </div>
+                <div class="redes">
+                        <li><a href="https://discord.gg/kTwDvFsA24"><i class="fab fa-discord"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCwdt5ZfMmFsWJA11LTCG0sg"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            </div>
+
+        </section>
+
+
+
+
+      <script src="https://kit.fontawesome.com/16544f2866.js" crossorigin="anonymous"></script>
+      <script>
+          var el = document.querySelector(".menu-mobile-icon");
+
+          el.addEventListener('click',()=>{
+             //Queremos mostrar o menu.
+             var menuItens = document.querySelector('.menu-itens');
+             menuItens.classList.add(show);
+          });
+      </script>
+    </body>
+</html>

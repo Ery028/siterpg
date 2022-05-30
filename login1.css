@@ -1,0 +1,134 @@
+body{
+    background-color: #bea3ca; 
+  }
+  
+  .form2{ 
+  width: 400px;
+  margin: auto;
+  padding-top: 40px;
+  }
+  
+  .cardestop{
+  text-align: center;
+  
+  }
+  
+  .imgtaberna{
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    box-shadow: 1px 1px 5px #380050;
+  
+  }
+  
+  .cardgroup > label{
+  width: 100%;
+  color: black;
+  display: block;
+  
+  }
+  
+  .cardgroup > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+  
+  }
+  
+  .cardgroup{margin-bottom: 10px;
+  
+  }
+  
+  .cardes{
+    box-shadow: 1px, 1px, 5px #380050;
+    background-color: #523268;
+    padding: 30px;
+    border-radius: 5px;
+   }
+  
+  .taberninha{
+    color: #33023d
+  
+  }
+  
+  .btn-login > button{
+    background-image: linear-gradient(to right,#bea3ca, #380050);
+    width: 100%;
+    border-radius: 30px; 
+    padding: 8px;
+    border: 0px;
+    outline: 0;
+  
+  }
+  
+  .btn-login button:hover{
+    background-image: linear-gradient(to right,#380050,#bea3ca);
+  
+  }
+
+
+
+
+
+
+
+.form{
+  animation: down 1.2s forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+
+
+body {
+  overflow: hidden;
+}
+.squares li {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation: up 2s infinite alternate;
+  z-index:-1
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-800px) rotate(960deg);
+  }
+}
+
+form {
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
